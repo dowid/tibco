@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<repository xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xmlns = "http://www.tibco.com/xmlns/repo/types/2002">
+	<globalVariables>
+		<globalVariable>
+			<name>hostname</name>
+			<value>ftphost.com</value>
+			<deploymentSettable>true</deploymentSettable>
+			<serviceSettable>false</serviceSettable>
+			<type>String</type>
+			<modTime>1634066462923</modTime>
+		</globalVariable>
+		<globalVariable>
+			<name>password</name>
+			<value>#!IpQyI/Y7uxpXg7eL+8riyzBqvlnLA55AhFFa/GNyQGs=</value>
+			<deploymentSettable>true</deploymentSettable>
+			<serviceSettable>false</serviceSettable>
+			<type>Password</type>
+			<modTime>1634066462932</modTime>
+		</globalVariable>
+		<globalVariable>
+			<name>username</name>
+			<value>user</value>
+			<deploymentSettable>true</deploymentSettable>
+			<serviceSettable>false</serviceSettable>
+			<type>String</type>
+			<modTime>1634066462938</modTime>
+		</globalVariable>
+	</globalVariables>
+</repository>

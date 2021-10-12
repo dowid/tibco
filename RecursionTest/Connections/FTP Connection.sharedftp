@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BWSharedResource>
+    <name>FTP Connection</name>
+    <resourceType>ae.shared.FTPuserChannel</resourceType>
+    <config>
+        <Timeout>60000</Timeout>
+        <Port>21</Port>
+        <Encoding>Cp1252</Encoding>
+        <FireWall>false</FireWall>
+        <Mode>Passive</Mode>
+        <useSsl>true</useSsl>
+        <Host>%%FTP_connection_settings/hostname%%</Host>
+        <UserName>%%FTP_connection_settings/username%%</UserName>
+        <Password>%%FTP_connection_settings/password%%</Password>
+        <ns0:ssl xmlns:ns0="http://www.tibco.com/xmlns/aemeta/services/2002">
+            <ns0:strongCipherSuitesOnly>false</ns0:strongCipherSuitesOnly>
+            <ns0:cert isRef="true">/Certificates/.folder</ns0:cert>
+            <ns0:verifyHostName>false</ns0:verifyHostName>
+        </ns0:ssl>
+    </config>
+</BWSharedResource>
